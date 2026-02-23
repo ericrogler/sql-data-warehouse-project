@@ -60,4 +60,11 @@ This can include metadata columns as well not originating from source data but a
 
 ## Gold Layer
 
-Text
+In this layer, we're exploring business objects from our two sources. This means we're building the business objects, combining existing tables if appropriate to do so, deciding between dimension vs fact vs flat table, and renaming columns. Aftwards, there's an integration check to ensure data quality is preserved and finalizing presentation diagrams.
+
+To add additional context to what's happening here:
+Data Modeling: taking raw data and configuring it into tables to define their relationships. There's three types of data models to consider: Conceptual, Logical, and Physical (Big picture, blueprint, and implementation). To preserve time and due to current simplicity of data, only the logical model is explored.
+
+Star Schema is the preferred model here for the reasons stated earlier. Snowflake schema would work, but we don't need many sub-dimensions for functionality.
+
+As for Dimensions vs Facts, Dimensions are descriptive information providing context whereas Facts are quantitative information representing events.
