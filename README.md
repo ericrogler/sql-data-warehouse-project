@@ -40,3 +40,16 @@ Several steps are involved with creating this layer
 - Data Completeness & Schema Checks
 - Documenting & Versioning in Git
 
+Essentially, we're discovering who owns the data, the process it supports, documentation to solve it, and any modeling and cataloging. It's also where we figured out where the data's stored and capabilities for integration.
+
+This stage also covers ETL/ELT, where we determine Incremental vs Full loads, scope, size, volumne, limitations and constraints, performance impactors, authentication and authorization, and so on.
+
+Once all these questions are answered, we can start scripting to go past database initialization. There won't be any transformations or modeling just yet; it's only getting everything set up for further modifications.
+
+## Silver Layer
+
+Text
+
+## Gold Layer
+
+Text
