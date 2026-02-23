@@ -34,7 +34,7 @@ Howdy, my name is Eric Rogler and my goal is to explore data engineering and pip
 
 ## Bronze Layer
 
-Several steps are involved with creating this layer
+Several steps are involved with creating this layer:
 - Analyzing by checking with SMEs
 - Data Ingestion
 - Data Completeness & Schema Checks
