@@ -56,6 +56,8 @@ The following steps are expected:
 - Data Correctness Checks
 - Data Documenting Versioning in GIT (Flow and Integration)
 
+This can include metadata columns as well not originating from source data but applying additional context, such as when records are update, what its original source was, and the location of files.
+
 ## Gold Layer
 
 Text
