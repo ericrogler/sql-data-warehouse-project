@@ -48,7 +48,13 @@ Once all these questions are answered, we can start scripting to go past databas
 
 ## Silver Layer
 
-Text
+This layer normally takes the longest time to complete.
+
+The following steps are expected:
+- Exploring and understanding the data
+- Data Cleansing (checking bronze quality and writing transformations before inserting into silver)
+- Data Correctness Checks
+- Data Documenting Versioning in GIT (Flow and Integration)
 
 ## Gold Layer
 
