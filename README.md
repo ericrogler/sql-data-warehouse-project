@@ -32,3 +32,11 @@ This project is licensed under the [MIT License](LICENSE). You're free to use, m
 
 Howdy, my name is Eric Rogler and my goal is to explore data engineering and pipeline creation.
 
+## Bronze Layer
+
+Several steps are involved with creating this layer
+- Analyzing by checking with SMEs
+- Data Ingestion
+- Data Completeness & Schema Checks
+- Documenting & Versioning in Git
+
