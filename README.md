@@ -67,4 +67,10 @@ Data Modeling: taking raw data and configuring it into tables to define their re
 
 Star Schema is the preferred model here for the reasons stated earlier. Snowflake schema would work, but we don't need many sub-dimensions for functionality.
 
-As for Dimensions vs Facts, Dimensions are descriptive information providing context whereas Facts are quantitative information representing events.
+As for Dimensions vs Facts, Dimensions are descriptive information providing context whereas Facts are quantitative information representing events. We have three tables here:
+
+- Customer: Dimension
+- Product: Dimension
+- Sales: Fact
+
+
