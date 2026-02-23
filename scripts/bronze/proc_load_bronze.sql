@@ -12,7 +12,6 @@ Usage Example
 
 */
 
-
 -- Setting up a Stored Procedure
 -- You can automate this script later on if needed.
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
@@ -138,3 +137,7 @@ BEGIN
 		PRINT '======================';
 	END CATCH
 END
+
+EXEC bronze.load_bronze
+-- Setting up a Stored Procedure
+-- You can automate this script later on if needed.
